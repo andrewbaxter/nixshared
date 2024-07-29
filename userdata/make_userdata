@@ -1,2 +1,0 @@
-#!/usr/bin/bash
-mkfs.erofs -zzstd -U $(cat uuid.txt) --all-root userdata.img "$1"
